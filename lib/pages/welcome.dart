@@ -49,7 +49,7 @@ class WelcomePage extends StatelessWidget {
           SizedBox(height: 50),
 
           ElevatedButton(onPressed: (){
-            Navigator.pushNamed(context, '/homepage');
+            Navigator.pushNamed(context, '/basepage');
           },
             style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.black87,
